@@ -21,7 +21,7 @@ function createWindow () {
   let win = new BrowserWindow(params);
 
   // Load the main.html file of the app.
-  win.loadFile('app/renderer.html');
+  win.loadFile('app/index.html');
 
   // Show chrome devtools when the app is opened.
   win.webContents.openDevTools();
